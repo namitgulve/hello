@@ -1,0 +1,31 @@
+<p>
+  page2 works!
+</p>
+<div class="container">
+  <h2>Page 2 task</h2>
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="title">Title</label>
+      <div class="col-sm-4">          
+        <input type="text" class="form-control" id="tit"  name="title">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">AssignedTo </label>
+      <div class="col-sm-4">          
+        <input type="text" class="form-control" id="assign" placeholder="Enter ssigned" name="assign">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Priority </label>
+      <div class="col-sm-4">          
+        <input type="text" class="form-control" id="pri" placeholder="Enter priority" name="priority">
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default" value="addtask" (click)="onClickMe()" routerLink="/page1">addtask</button>
+      </div>
+    </div>
+  </form>
+</div>
